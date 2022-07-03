@@ -1,0 +1,1250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    height: auto;
+}
+#header{
+background-color: rgb(0, 0, 0);
+width: 100%;
+height: auto;
+}
+#logo{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 45ex;
+    text-align: center;
+}
+#small-header{
+    position: relative;
+    background-color: white;
+    width: 100%;
+height:auto;
+box-shadow: 0px 3px 5px #00000057;
+}
+#Home-headline{
+    position: relative;
+    font-size: 5ex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ec6810;
+    padding: 5px 0;
+    text-align: center;
+}
+.logos{
+    position: relative;
+width: 20rem;
+margin-top: 10%;
+cursor: pointer;
+}
+#blog-logo-marg{
+    margin-top:5%;
+}
+.logos-marg{
+    margin-bottom: 5%;
+} 
+.text-marg{
+    margin-top: 10%;
+}
+.text-welcome{
+    position: relative;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 5%;
+    padding-top: 4.4%;
+    animation: text-welcome 3s 1;
+}
+@keyframes text-welcome {
+    0%{right: 30ex;opacity: 0.0;}
+    20%{opacity: 0.0;}
+    40%{opacity: 0.2;}
+    50%{opacity: 0.3;}
+    60%{opacity: 0.4;}
+    70%{opacity: 0.5;}
+    80%{opacity: 0.6;}
+    90%{opacity: 0.7;}
+     100%{right: 0ex;opacity:none}
+ }
+.text-welcome2{
+    margin-top: 3%;
+    position: relative;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 5%;
+    animation: text-welcome2 5s 1;
+}
+@keyframes text-welcome2 {
+    0%{right: 100ex;opacity: 0.0;}
+   20%{opacity: 0.0;}
+   40%{opacity: 0.2;}
+   50%{opacity: 0.3;}
+   60%{opacity: 0.4;}
+   70%{opacity: 0.5;}
+   80%{opacity: 0.6;}
+   90%{opacity: 0.7;}
+    100%{right: 0ex;opacity:none}
+ }
+.text-welcome3{
+    margin-top: 3%;
+    position: relative;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    margin-left: 5%;
+    text-align: center;
+    animation: text-welcome3 5s 1;
+}
+@keyframes text-welcome3 {
+    0%{right: 800ex;opacity: 0.0;}
+   20%{opacity: 0.0;}
+   40%{opacity: 0.2;}
+   50%{opacity: 0.3;}
+   60%{opacity: 0.4;}
+   70%{opacity: 0.5;}
+   80%{opacity: 0.6;}
+   90%{opacity: 0.7;}
+    100%{right: 0ex;opacity:none}
+ }
+ .text-welcome4{
+    margin-top: 4%;
+    position: relative;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    animation: text-welcome4 7s 1;
+ }
+ @keyframes text-welcome4 {
+    0%{right: 100rem;opacity: 0.0;}
+   20%{opacity: 0.0;}
+   40%{opacity: 0.0;}
+   50%{opacity: 0.0;}
+   60%{opacity: 0.6;}
+   70%{opacity: 0.7;}
+   80%{opacity: 0.8;}
+   90%{opacity: 0.9;}
+    100%{right: 0ex;opacity:none}
+ }
+ #drop-down{
+     margin-top: 2%;
+ }
+ .text-welcome5{
+    margin-top: 3%;
+    margin-right: 4%;
+    position: relative;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    text-align: right;
+    animation: text-welcome5 7s 1;
+ }
+ @keyframes text-welcome5 {
+    0%{right: 1000ex;opacity: 0.0;}
+   20%{opacity: 0.0;}
+   40%{opacity: 0.2;}
+   50%{opacity: 0.3;}
+   60%{opacity: 0.4;}
+   70%{opacity: 0.5;}
+   80%{opacity: 0.6;}
+   90%{opacity: 0.7;}
+    100%{right: 0ex;opacity:none}
+    }
+    #drop-down{
+        animation: drop-down 5s 1 ;
+    }
+    @keyframes drop-down {
+        from{opacity: 0.0;}
+        to{opacity: 0.1;}
+    }
+#present-back{
+ background-image: url("/Allimg/web-orange-1.jpg");
+ background-repeat: no-repeat;
+    font-weight: bolder;
+    box-shadow: 0px 3px 25px #ec6810;
+}
+#my-function{
+    padding-bottom: 0;
+    display: inline;
+}
+#txt-frst-logo{
+    color: #ec6810;
+  font-size: 6ex;
+  font-family: 'Merriweather Sans', sans-serif;
+  cursor: pointer;
+  display: none;
+}
+#txt-sec-logo{
+  color: #624B99;
+    font-size: 6ex;
+    font-family: 'Merriweather Sans', sans-serif;
+    cursor: pointer;
+    display: none;
+}
+#txt-third-logo{
+    color: #70B636;
+    font-size: 6ex;
+    font-family: 'Merriweather Sans', sans-serif;
+    cursor: pointer;
+    display: none;
+}
+#txt-frth-logo{
+    color: #3DBAB7;
+    font-size: 6ex;
+    font-family: 'Merriweather Sans', sans-serif;
+    cursor: pointer;
+    display: none;
+}
+.txt1{
+    animation: txt-frst-logo 2s 1;
+}
+@keyframes txt-frst-logo {
+from{opacity: 0.1;}
+to{opacity: none;}
+}
+.text-marg-js{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Frame{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#first-logo{
+    background-color: #4A2D86;
+    width: 100%;
+    height: 27.2ex;
+    border-top-left-radius: 40%;
+    border-top-right-radius:40%;
+}
+#second-logo{
+    background-color: #9F1915;
+    width: 100%;
+    height: 27.2ex;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius:40%;
+}
+#third-logo{
+    background-color: #125026;
+    width: 100%;
+    height: 27.2ex;
+}
+#fourth-logo{
+    background-color:#FCAB17;
+    width: 100%;
+    height: 27.2ex;
+}
+.fin-marg{
+    margin-left: 0%;
+    margin-right: 5%;
+}
+#logos-back{
+    background-color: #000000;
+    height: auto;
+    width: 100%;
+}
+#frame-back{
+width: 60%;
+height: auto;
+margin-left: 19.5%;
+}
+#txt-align-cen{
+    text-align: center;
+}
+#sam{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:3.5ex;
+    text-align: center;
+    font-weight: bold;
+}
+.text-specifies{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+}
+#keyboard-background{
+   background-color:#000000;
+   clear: both;
+
+}
+#hidd-text{
+    font-size: 9vw;
+    display: none;
+}
+#coding-evrty{
+    color: white;
+    font-size: 5ex;
+   float: left;
+   margin-top: 12%;
+   margin-left: 3%;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+#graphic-evrty{
+    color:white;
+    font-size: 5ex;
+   float: right;
+   margin-top: 12%;
+   margin-right: 3%;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+#keyboard-div{
+    animation: keyboard 3s 1;
+    display: none;
+}
+#keyboard-img{
+    border: 1px solid white;
+    width: fit-content;
+    border-radius: 100%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+}
+@keyframes keyboard {
+    from{padding-top:5vw; opacity:0.0;}
+    to{opacity: none;}
+
+}
+#subjec-headline{
+    position: absolute;
+    background-color: #ec6810;
+    width: 100%;
+box-shadow: 0px 3px 5px #00000057;
+}
+#subject-js{
+    cursor:pointer;
+    color: white;
+    font-size:10ex;
+    font-family: 'Lobster Two', cursive;
+    margin-left: 10%;
+    margin-right: 100%;
+    padding-bottom: 1%;
+}
+#subject-js:hover{
+    animation: subject-js 1s 1;
+    animation-fill-mode: forwards;
+}
+@keyframes subject-js{
+    0%{opacity: 0.0;}
+50%{opacity: 0.1; color:#c8c0da}
+100%{opacity: none; color: #4A2D86;}
+}
+.subject{
+    color: white;
+    font-size:10ex;
+    font-family: 'Lobster Two', cursive;
+    display: none;
+    padding-left: 30%;
+    animation: subject 2s 1;
+}
+.subject1{
+    color:white;
+    font-size:10ex;
+    font-family: 'Lobster Two', cursive;
+    display: inline;
+    padding-left: 30%;
+    animation: subject 2s 1;
+}
+@keyframes subject{
+
+}
+#background-color1{ 
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#container{
+    width: auto;
+    height: auto;
+    padding-bottom:3%;
+    padding-top: 18%;
+}
+#disclaimer-style{
+    font-size: 7ex;
+    margin-top: 2%;
+  display: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  animation: disclaimer 2s 1;
+}
+#disclaimer-style1{
+    font-size: 7ex;
+    margin-top: 2%;
+  display: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  animation: disclaimer 2s 1;
+}
+#disclaimer-style2{
+    font-size: 7ex;
+    margin-top: 2%;
+  display: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  animation: disclaimer 2s 1;
+}
+@keyframes disclaimer  {
+    from{opacity: 0.0;}
+    to{opacity:none; }
+}
+#container1{
+    margin-left: 5%;
+    height: auto;
+    width: 25%;
+    display: inline-block;
+    background-color: #4A2D86;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+#welcome{
+   width: 100%; 
+}
+button{
+    background-color: rgb(236, 104, 16);
+    color: white;
+    font-size: 3vh;
+    margin-top: 0%;
+    width:100%;
+    border: none;
+}
+button:hover{
+    background-color: white;
+    color:rgb(236, 104, 16) ;
+    font-size: 3vh;
+    font-weight: bolder;
+    border: 2px solid #ec6810 ;
+}
+#contact-main{
+   width: 100%;
+   height: fit-content;
+   white-space: nowrap;
+   background-color: #FCAB17;
+   display: flex;
+}
+#text-color{
+    color: #4A2D86;
+ text-align: left;
+}
+#margin{
+padding-top: 1vw;
+}
+#contact-text{
+   font-size: 70px;
+    margin-left: 19%;
+    margin-top: 10%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#contact-text2{
+    font-size: 20px;
+    margin-left: 19%;
+    margin-top: 2%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+#email-container{
+    border: 3px solid #4A2D86;
+   width: fit-content;
+    margin-left: 17%;
+    margin-top: 3%;
+}
+#text-widht{
+ font-size: 30px;
+ font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.img-pos{
+    text-align:right;
+}
+#bar-img{
+    text-align: center;
+    position: relative;
+ width: 30rem;
+ margin-right: 5%;
+ margin-left: 25%;
+}
+#footer{
+    background-color: rgb(0, 0, 0);
+width: 100%;
+height: auto;
+white-space: nowrap;
+clear: left;
+}
+#copyright{
+    font-size: 3ex;
+    color: white;
+    text-align: left;
+}
+#motiv-cont{
+  text-align: right;
+  margin-right: 5%;
+}
+#motivation{
+    color: white;
+    font-size: 4ex;
+    text-align: right;
+}
+#me{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 4ex;
+    text-align: right;
+}
+#Social{
+    font-size: 4ex;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+#twitter{
+    width: 10ex;
+    cursor: pointer;
+}
+#insta{
+    width: 10ex;
+    cursor: pointer;
+    margin-right: 2%;
+}
+#insta:hover, #twitter:hover{
+    opacity: 0.2;
+}
+
+#ty{
+    font-family: 'Lato', sans-serif;
+    font-size: 5ex;
+    color: white;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    padding-top: 2%;
+}
+@media screen and (max-width: 1200px) { 
+    body{
+        overflow-x: hidden;
+    }
+    #logo{
+        width: 45ex;
+        text-align: center;
+    }
+    .text-welcome{
+        font-size: 40px;
+        text-align: left;
+        font-weight: none;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+    .text-welcome2{
+        font-size: 43px;
+        font-weight: none;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .text-welcome3{
+        font-size: 43px;
+        font-weight: none;
+        margin-right: 3%;
+        padding-bottom: 5%;
+    }
+    .text-welcome5{
+        font-size: 43px;
+        font-weight: none;
+        margin-right: 2%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    #txt-anim4{
+        font-size: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom:3.4%;
+    }
+    .logos{
+       margin-top: 0;
+       margin-top: 9%;
+    }
+    #frame-back{
+        width: 80%;
+        text-align:center;
+        margin-left: 0;
+        margin-left:10%
+    }
+    #txt-frst-logo{
+        font-size:7ex;
+    }
+    #txt-sec-logo{
+        font-size: 7ex;
+    }
+    #txt-third-logo{
+font-size: 7ex;
+    }
+    #txt-frth-logo{
+        font-size: 7ex;
+    }
+    #keyboard-img{
+        width: 40ex;
+    }
+    #coding-evrty{
+        font-size: 4ex;
+    }
+    #graphic-evrty{
+        font-size: 4ex;
+    }
+    #diclaimer-style{
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 2ex;
+        padding-bottom: 20%;
+      display: none;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    #diclaimer-style1{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #disclaimer-style2{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #container{
+        padding-top: 20%;
+    }
+    #sam{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size:3.5ex;
+        text-align: center;
+        font-weight: bold;
+    }
+    #container1{
+        margin-left: 3%;
+        height: auto;
+        width: 28%;
+        display: inline-block;
+        background-color: #4A2D86;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+    }
+   #welcome{
+    width: 100%;
+   }
+    button{
+        width: 100%;
+    }
+    #contact-main{
+        width: 100%;
+        height: fit-content;
+        white-space: nowrap;
+        background-color: #FCAB17;
+        display: flex;
+     }
+     #contact-text{
+        text-align: left;
+        font-size: 73px;
+         margin-left: 5%;
+         margin-right: 3%;
+         margin-top: 5%;
+         font-family: 'Source Sans Pro', sans-serif;
+     }
+     #contact-text2{
+        text-align: left;
+        font-size: 23px;
+        margin-left: 5%;
+        margin-top: 2%;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+    #email-container{
+        border: 3px solid #4A2D86;
+       width: fit-content;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    #text-widht{
+        font-size: 30px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+       }
+       #bar-img{
+        position: relative;
+     width:  20rem;
+     margin-left: 5%;
+     margin-bottom: 3%;
+     margin-top: 3%;
+    }
+    #ty{
+        font-size: 5ex;
+        text-align: center;
+        color: white;
+        margin-bottom: 3%;
+        padding-top: 5%;
+    }
+    #motiv-cont{
+        font-size: 3ex;
+        text-align: right;
+padding-right: 5%;
+        margin: 0;
+        padding-bottom: 5%;
+        padding-top:4%;
+    }
+    #me{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 4ex;
+        text-align: right;
+    }
+}
+@media screen and (max-width: 991px) { 
+    body{
+        overflow-x: hidden;
+    }
+    #logo{
+        width: 45ex;
+        text-align: center;
+    }
+    .text-welcome{
+        font-size: 35px;
+        font-weight: none;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+    .text-welcome2{
+        font-size: 33px;
+        font-weight: none;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .text-welcome3{
+        font-size: 35px;
+        font-weight: none;
+        margin-right: 3%;
+        padding-bottom: 5%;
+    }
+    .text-welcome5{
+        font-size: 35px;
+        font-weight: none;
+        margin-right: 2%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    #txt-anim4{
+        font-size: 23px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom:3.4%;
+    }
+    .logos{
+padding-top: 2%;
+    }
+    #frame-back{
+        width: 80%;
+        text-align:center;
+        margin-left: 0;
+        margin-left:10%
+    }
+    #txt-frst-logo{
+        font-size:7ex;
+    }
+    #txt-sec-logo{
+        font-size: 6.5ex;
+    }
+    #txt-third-logo{
+font-size: 7ex;
+    }
+    #txt-frth-logo{
+        font-size: 6.5ex;
+    }
+    #keyboard-img{
+        width: 55ex;
+    }
+    #coding-evrty{
+        color: white;
+        font-size: 6ex;
+    float: none;
+    margin: 0%;
+    margin-top: 5%;
+    }
+    #graphic-evrty{
+        color:white;
+        font-size: 6ex;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin: 0;
+margin-top: 5%;
+padding-bottom: 5%;
+        float: none;
+    }
+    #diclaimer-style{
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 3ex;
+        padding-bottom: 20%;
+      display: none;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    #diclaimer-style1{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #disclaimer-style2{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #container{
+        padding-top: 26%;
+    }
+   #welcome{
+    width: 100%;
+   }
+   #sam{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:3.5ex;
+    text-align: center;
+    font-weight: bold;
+}
+#container1{
+    margin-left: 3%;
+    height: auto;
+    width: 30%;
+    display: inline-block;
+    background-color: #4A2D86;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+    button{
+        width: 100%;
+    }
+    #contact-main{
+        display: flex;
+  flex-direction: column;
+        width: 100%;
+        white-space: nowrap;
+        background-color: #FCAB17;
+        display: inline-block;
+     }
+     #contact-text{
+        text-align: center;
+        font-size: 73px;
+         margin-left: 5%;
+         margin-right: 3%;
+         margin-top: 5%;
+         font-family: 'Source Sans Pro', sans-serif;
+     }
+     #contact-text2{
+        text-align: center;
+        font-size: 23px;
+        margin-left: 0;
+        margin-top: 2%;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+    #email-container{
+        border: 3px solid #4A2D86;
+       width: fit-content;
+        margin-left: 19%;
+        margin-right: 3%;
+        margin-top: 4%;
+    }
+    #text-widht{
+        font-size: 30px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+       }
+       .img-pos{
+        text-align: center;
+       }
+       #bar-img{
+        position: relative;
+     width:  38rem;
+     margin-right: 5%;
+     margin-left: 5%;
+     margin-bottom: 3%;
+     margin-top: 3%;
+    }
+    #ty{
+        font-size: 5ex;
+        text-align: center;
+        color: white;
+        margin-bottom: 3%;
+        padding-top: 5%;
+    }
+    #motiv-cont{
+        font-size: 3ex;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 5%;
+        padding-top:4%;
+    }
+    #me{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 4ex;
+        text-align: center;
+    }
+}
+/*First*/
+@media screen and (max-width: 767px) { 
+    body{
+        overflow-x: hidden;
+    }
+    #logo{
+        width: 39ex;
+        text-align: center;
+    }
+    .text-welcome{
+        font-size: 36px;
+        font-weight: none;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+    .text-welcome2{
+        font-size: 36px;
+        font-weight: none;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .text-welcome3{
+        font-size: 38px;
+        font-weight: none;
+        margin-right: 3%;
+        padding-bottom: 5%;
+    }
+    .text-welcome5{
+        font-size: 38px;
+        font-weight: none;
+        margin-right: 2%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    #txt-anim4{
+        font-size: 21px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom:3.4%;
+    }
+    .logos{
+padding-top: 8%;
+    }
+    #frame-back{
+        width: 80%;
+        text-align:center;
+    }
+    #txt-frst-logo{
+        font-size:6ex;
+    }
+    #txt-sec-logo{
+        font-size: 6ex;
+    }
+    #txt-third-logo{
+font-size: 6ex;
+    }
+    #txt-frth-logo{
+        font-size: 6ex;
+    }
+    #keyboard-img{
+        width: 45ex;
+    }
+    #coding-evrty{
+        color: white;
+        font-size: 5ex;
+    float: none;
+    margin: 0%;
+    margin-top: 5%;
+    }
+    #graphic-evrty{
+        color:white;
+        font-size: 5ex;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin: 0;
+margin-top: 8%;
+        float: none;
+        padding-bottom: 4%;
+    }
+    #diclaimer-style{
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 3ex;
+        margin-top: 4%;
+      display: none;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    #diclaimer-style1{
+        font-size: 7ex;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 16%;
+        }
+    #disclaimer-style2{
+        font-size: 7ex;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #container{
+        padding-top: 30%;
+    }
+    #sam{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size:3.5ex;
+        text-align: center;
+        font-weight: bold;
+    }
+    #container1{
+        margin-left: 25%;
+        height: auto;
+        width: 48%;
+        display: inline-block;
+        background-color: #4A2D86;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+    }
+    button{
+        width: 100%;
+    }
+    #contact-main{
+        text-align: center;
+        display: flex;
+  flex-direction: column;
+        width: 100%;
+        white-space: nowrap;
+        background-color: #FCAB17;
+        display: inline-block;
+     }
+     #contact-text{
+        font-size: 68px;
+         margin-left: 5%;
+         margin-right: 3%;
+         margin-top: 5%;
+         font-family: 'Source Sans Pro', sans-serif;
+     }
+     #contact-text2{
+        text-align: center;
+        font-size: 20px;
+        margin-left: 2%;
+        margin-top: 2%;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+    #email-container{
+        position: relative;
+            margin:0;
+            margin-left: 12%;
+        margin-top: 3%;
+      border: 3px solid #4A2D86;
+    }
+    #text-widht{
+        position: relative;
+        font-size: 25px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+       }
+       .img-pos{
+        text-align: center;
+       }
+       #bar-img{
+        text-align: center;
+        position: relative;
+     width: 33rem;
+     margin-bottom: 3%;
+    }
+    #ty{
+        text-align: center;
+        font-size: 4.5ex;
+        margin-right: 5%;
+        color: white;
+        margin-bottom: 3%;
+        padding-top: 5%;
+    }
+    #motiv-cont{
+        padding-right: 0;
+        font-size: 2.5ex;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 5%;
+        padding-top:4%;
+    }
+    #me{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 4ex;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 580px) { 
+    body{
+        overflow-x: hidden;
+    }
+    #logo{
+        width: 39ex;
+        text-align: center;
+    }
+    .text-welcome{
+        font-size: 26px;
+        font-weight: none;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+    .text-welcome2{
+        font-size: 28px;
+        font-weight: none;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .text-welcome3{
+        font-size: 29px;
+        font-weight: none;
+        margin-right: 3%;
+        padding-bottom: 5%;
+    }
+    .text-welcome5{
+        font-size: 29px;
+        font-weight: none;
+        margin-right: 2%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    #txt-anim4{
+        font-size: 19px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom:3.4%;
+    }
+    .logos{
+padding-top: 10%;
+    }
+    #frame-back{
+        width: 80%;
+        text-align:center;
+        margin-left: 0;
+        margin-left:10%
+    }
+    #txt-frst-logo{
+        font-size:5ex;
+    }
+    #txt-sec-logo{
+        font-size: 5ex;
+    }
+    #txt-third-logo{
+font-size: 5ex;
+    }
+    #txt-frth-logo{
+        font-size: 5ex;
+    }
+    #keyboard-img{
+        width: 45ex;
+    }
+    #coding-evrty{
+        color: white;
+        font-size: 5ex;
+    float: none;
+    margin: 0%;
+    margin-top: 5%;
+    }
+    #graphic-evrty{
+        color:white;
+        font-size: 5ex;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin: 0;
+        margin-left: 2%;
+        margin-right: 2%;
+margin-top: 5%;
+        float: none;
+    }
+    #diclaimer-style{
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 5ex;
+        margin-top: 4%;
+      display: none;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    #diclaimer-style1{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #disclaimer-style2{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #container{
+        padding-top: 50%;
+    }
+    #sam{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size:3.5ex;
+        text-align: center;
+        font-weight: bold;
+    }
+    #container1{
+        margin-left: 22%;
+        height: auto;
+        width: 58%;
+        display: inline-block;
+        background-color: #4A2D86;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+    }
+    button{
+        width: 100%;
+    }
+    #contact-main{
+        display: flex;
+  flex-direction: column;
+        width: 100%;
+        white-space: nowrap;
+        background-color: #FCAB17;
+        display: inline-block;
+     }
+     #contact-text{
+        font-size: 53px;
+         margin-left: 3%;
+         margin-right: 3%;
+         margin-top: 5%;
+         font-family: 'Source Sans Pro', sans-serif;
+     }
+     #contact-text2{
+        font-size: 15px;
+        margin-left: 1%;
+        margin-right: 5%;
+        margin-top: 2%;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+    #email-container{
+        position: relative;
+        border: 3px solid #4A2D86;
+       width: fit-content;
+        margin-left: 8%;
+        margin-right: 3%;
+        margin-top: 6%;
+    }
+    #text-widht{
+        font-size: 20px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+       }
+       .img-pos{
+        text-align: center;
+       }
+       #bar-img{
+        position: relative;
+     width:  25rem;
+     margin-right: 5%;
+     margin-left: 5%;
+     margin-bottom: 3%;
+     margin-top: 3%;
+    }
+    #ty{
+        font-size: 3.4ex;
+        text-align: center;
+        color: white;
+        margin-bottom: 3%;
+        padding-top: 5%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #motiv-cont{
+        text-align: center;
+        margin: 0;
+        padding-bottom: 5%;
+        padding-top:4%;
+    }
+    #me{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 4ex;
+        text-align: center;
+    }
+}

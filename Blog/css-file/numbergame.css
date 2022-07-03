@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    height: auto;
+}
+#header{
+background-color: rgb(0, 0, 0);
+width: 100%;
+height: auto;
+}
+#logo{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 45ex;
+    text-align: center;
+}
+#small-header{
+    position: relative;
+    background-color: white;
+    width: 100%;
+height:auto;
+box-shadow: 0px 3px 5px #00000057;
+}
+#subject3-headline{
+    position: relative;
+    font-size: 6ex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #3DBAB7;
+    padding: 5px 0;
+    text-align: center;
+}
+#btn1{
+    display: inline;
+}
+#btn2{
+    display: none;
+}
+#btn3{
+    display: none;
+}
+#btn4{
+    display: none;
+}
+#btn5{
+    display: none;
+}
+#digitYourNumber{
+    color: #3DBAB7; 
+    background-color: black;
+    border: none;
+    height:4ex;
+    width: 13%;   
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left:73.4ex ;
+    display: none;
+}
+.container { 
+    position: relative;
+background-color: #7AC7C5;
+  }
+.game-button{
+    cursor: pointer;
+    height:4ex;
+    color: #3DBAB7; 
+    width: 13%;   
+    margin-left: 43.5%;
+    margin-top: 3%;
+    background-color: black;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+#number1{
+    color: #588602;
+padding-top: 2%;
+    font-size: 3ex;
+    margin-bottom: 1%;
+    text-align: center;
+    display:none;
+    font-family: 'Comfortaa', cursive;
+}
+#number2{
+    padding-top: 1%;
+    margin-bottom: 2%;
+    font-size: 3ex;
+    text-align: center;
+    display:none;
+    font-family: 'Comfortaa', cursive;
+}
+#higher-lower{
+    font-size: 3ex;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-align: center;
+    display: none;
+    font-family: 'Comfortaa', cursive;
+}
+#digitbtn{
+    display: none;
+}
+#oke{
+    font-size: 3.8ex;
+    margin-top: 1%;
+    text-align: center;
+    display: none;
+    font-family: 'Comfortaa', cursive;
+}
+#your-guesses{
+    color: #044948;
+    margin-top: 1.5%;
+    text-align: center;
+    font-size: 4ex;
+    display: none;
+    font-family: 'Comfortaa', cursive;
+}
+#Gameover{
+    color: #044948;
+    margin-top: 1.5%;
+    text-align: center;
+    font-size: 4ex;
+    display: none;
+    font-family: 'Comfortaa', cursive;
+}
+#userWin{
+    color: #044948;
+    margin-top: 1.5%;
+    text-align: center;
+    font-size: 4ex;
+    display: block;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 1%;
+}
+#restart{
+    color: #3DBAB7; 
+    background-color: black;
+    border: none;
+    height:4ex;
+    width: 13%;   
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left:73.4ex ;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+#retro-back{
+    position: relative;
+    height: auto;
+    background-color: #A2D6D4;
+}
+#rule-headline{
+    margin-left: 2%;
+    text-align: left;
+font-size: 10ex;
+font-family: 'Comfortaa', cursive;
+}
+#text1{
+    text-align: left;
+    font-size: 4ex;
+    font-family: 'Comfortaa', cursive;
+margin-bottom: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+#retro-img{
+    vertical-align: text-bottom;
+    margin-top: 0;
+   margin-right: 3%;
+    width: 50ex;
+    float: right;
+}
+#text-float{
+    float: left;
+}
+#footer{
+    background-color: rgb(0, 0, 0);
+width: 100%;
+height: auto;
+white-space: nowrap;
+clear: left;
+}
+#copyright{
+    font-size: 3ex;
+    color: white;
+    text-align: left;
+}
+#motiv-cont{
+  text-align: right;
+  margin-right: 5%;
+}
+#motivation{
+    color: white;
+    font-size: 4ex;
+    text-align: right;
+}
+#me{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 4ex;
+    text-align: right;
+}
+#Social{
+    font-size: 4ex;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+#twitter{
+    width: 10ex;
+    cursor: pointer;
+}
+#insta{
+    width: 10ex;
+    cursor: pointer;
+    margin-right: 2%;
+}
+#insta:hover, #twitter:hover{
+    opacity: 0.2;
+}
+
+#ty{
+    font-family: 'Lato', sans-serif;
+    font-size: 5ex;
+    color: white;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    padding-top: 2%;
+}#home-link{
+    text-align: right;
+}

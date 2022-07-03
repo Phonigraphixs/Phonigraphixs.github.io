@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#body{
+    opacity: none;
+}
+.mba{
+    margin-bottom: 2%;
+}
+#header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+}
+#small-header{
+    position: relative;
+    background-color: white;
+    width: 100%;
+height:auto;
+box-shadow: 0px 3px 5px #00000057;
+}
+#Home-headline{
+    position: relative;
+    font-size: 5ex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ec6810;
+    padding: 5px 0;
+    text-align: center;
+}
+#tagcolor{
+    color: white;
+}
+#ulDescr{
+    color: white;
+list-style-type: none;
+}
+#tag1{
+    color: white;
+    margin-top: 2%;
+    float: right;
+    margin-right: 5%;
+}
+#tag2{
+    margin-top: 2%;
+    float: right;
+}
+#tagfont{
+font-size: 3ex;
+}
+a:link{
+    text-decoration: none;
+}
+#logo{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 30ex;
+    text-align: center;
+margin-left: 9%;
+}
+#vislink:visited{
+    color: aqua;
+}
+#element1{
+    text-align: center;
+}
+#text{
+   margin-left: 2%;
+   margin-right: 2%;
+}
+.text-widht{
+    font-size: 23px;
+}
+#footer{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    padding-bottom: 0.1%;
+}
+#top{
+    font-size: 2.5ex;
+    margin-left: 50%;
+    width: fit-content;
+  text-align: left;
+  margin-left: 5%;
+}
+#home{
+    font-size: 3ex;
+text-align: right;
+margin-right: 5%;
+}
+#about:hover{
+    color: white;
+}
+#footext{
+    margin-top: 5%;
+    padding: 0;
+    text-align: center;
+    font-size: 2ex;
+}
+#textsoc{
+    text-align: center;
+    font-size: 2ex;
+}
+#textcolor{
+    color: white;
+}
+#social{
+    margin-left: 1%;
+    width:  10ex;
+}
+#social:hover{
+    opacity: 0.5;
+}
+#socialpos{
+    text-align: center;
+    margin-right: 3%;
+}
+#firstimg{
+    overflow: hidden;
+    margin-right: 2%;
+    margin-left: 2%;
+    width:70ex;
+}
+#email{
+    white-space: nowrap;
+}
+#fhl{
+    margin-top: 3%;
+    margin-left: 10%;
+    color: #ec6810;
+}
+#proglang{
+    width: 60ex;
+}
+#ati{
+    width: 58ex;
+}
+#checkimg{
+    width: 60ex;
+}
+#disclaimer{
+    width: 50ex;
+}
+#finalinks{
+white-space: nowrap;
+}
+#poll{
+    white-space: nowrap;
+    margin-right: 1%;
+    text-align: right;
+    position: relative;
+    font-size: 19px;
+    color: rgb(247, 174, 39);
+}
+#fp-widht{
+    font-size: 2.5ex;
+}
+#ty{
+    font-size: 4ex;
+    color: white;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    padding-top: 2%;
+}
+#my-Social{
+    font-size: 3.5ex;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+#motiv-cont{
+    margin-right: 5%;
+  text-align: right;
+}
+#motivation{
+    color: white;
+    font-size: 4ex;
+    text-align: right;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+#me{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 5ex;
+    text-align: right;
+}
+@media screen and (max-width: 120ex) { 
+    #firstimg{
+        width:50ex;
+    }
+    #poll{
+        font-size: 12px;
+    }
+     #alltext{
+         margin-left: 3%;
+         margin-right: 1%;
+     }
+     #logo{
+         text-align: center;
+         width: 30ex;
+         margin-top: 0;
+         margin-bottom: 5%;
+         width: 30ex;
+     margin-left: 8%;
+     margin-right: 8%;
+     }
+     #proglang{
+         width: 50ex;
+     }
+     #ati{
+         width: 50ex;
+     }
+     #checkimg{
+         width: 53ex;
+     }
+     #motiv-cont{
+        margin-right: 0;
+      text-align: center;
+    }
+     #motivation{
+        font-size: 4ex;
+        text-align: center;
+    }
+    #me{
+        text-align: center;
+    }
+    .text-widht{
+        margin-right:10%;
+        margin-left: 10%;
+    }
+}
+ 

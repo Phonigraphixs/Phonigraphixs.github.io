@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+overflow-x: hidden;
+}
+#small-header{
+    position: relative;
+    background-color: white;
+    width: 100%;
+height:auto;
+box-shadow: 0px 3px 5px #00000057;
+}
+.poll-text{
+    position: relative;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+   text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 8vh;
+}
+#text1-specifies{
+    font-size: 3vh;
+    position: relative;
+    margin-top: 5%;
+}
+#text-3{
+    font-size: 3vh;
+    position: relative;
+    margin-top: 15%;
+}
+.poll-text:hover{
+    animation: poll-text 8s infinite;
+}
+@keyframes poll-text{
+    0%{background-color:black ;}
+    14%{background-color: indigo ;}
+    28%{background-color: purple;}
+    42%{background-color: blue;}
+    56%{background-color: green;}
+    70%{background-color: yellow;}
+    84%{background-color: orange;}
+98%{background-color: red;}
+100%{background-color: black;}
+}
+#uncorrect{
+    font-size: 3vh;
+    text-align: center;
+    box-shadow: 0px 3px 5px #00000057;
+    background-color: white;
+    height: auto;
+}
+#uncorrect-widht{
+   margin-right: 20%;
+   margin-left: 20%;
+}
+#text1{
+position: relative;
+transform: translate(0px,15px);
+}
+#text2{
+    margin-top:vh;
+}
+.test2{
+    animation: test2 2s 1;
+    animation-fill-mode: forwards;
+}
+@keyframes test2{
+    from{color: white;}
+    to{color: rgb(4, 83, 8);}
+}
+a{
+    text-decoration: none;
+}
+#parent{
+    position: relative;
+    white-space: nowrap;
+}
+.child{
+    display: inline;
+}
+#Poll-headline{
+    font-size: 5ex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(14, 107, 107, 0.623);
+    margin-left: 48%;
+}
+a:visited{
+    color:rgba(49, 165, 159, 0.623)
+}
+#home-position{
+    text-align: right;
+    margin-right: 5%;
+    padding-top: 4%;
+}
+#home-text{
+position: relative;
+    font-size: 5ex;
+    color: rgb(72, 186, 183, 0.623);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        box-shadow: inset 0 0 0 0 #54b3d6;
+        color: rgb(72, 186, 183, 0.623);
+        margin: 0 -.25rem;
+        padding: 0 .25rem;
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+#home-text:hover{
+    box-shadow: inset 105px 0 0 0 rgb(72, 186, 183, 0.623);
+    color: white;
+}
+.marg-first{
+    margin-left: 2%;
+margin-top: 7%;
+}
+#marg-sec{
+    margin-top: 10%
+}
+#marg-third{
+    margin-top: 7%;
+}
+#parent{
+    white-space: nowrap;
+}
+.child{
+    display: inline-block;
+}
+#Arg-third:hover{
+    background-color: rgb(189, 185, 185);;
+}
+.arg-backwidht{
+  height: 20%;
+}
+.arg-round{
+    border-radius: 20%;
+}
+#fin-pos{
+    width: 90%;
+    margin-top: 75%;
+    position: absolute;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#logo{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 38ex;
+    text-align: center;
+margin-left: 0%;
+}
+#header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+}
+#left-thing{
+    background-color: orange;
+    width: fit-content;
+    height: 100%;
+}
+#left-height{
+ height: 100%;
+ overflow: hidden;
+}
+#footer{
+background-color: black;
+    position:relative;
+  margin-top: 10%;
+    width:100%;
+    height:20vh; 
+}
+@media screen and (max-width: 120ex) {
+    #logo{
+        margin-left: 0%;
+        text-align: center;
+        width: 33ex;
+
+    }
+    #text1-specifies{
+        margin-top: 20%;
+    }
+    #home-position{
+        padding-top:7%;
+    }
+#poll-headline{
+    margin-left: 45%;
+}
+.poll-text{
+    margin-left:5%; 
+margin-right:5%;
+}
+#uncorrect-widht{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+}
